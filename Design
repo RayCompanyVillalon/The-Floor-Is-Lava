@@ -1,0 +1,85 @@
+DESIGN.md - A design document describing your game in more detail than your proposal. This should include discussion of:
+
+    Game loop
+    Game mechanics
+    Game structure
+    Other core stuff (setting, characters, factions, unit types, whatever is appropriate)
+
+Initial paper prototype (digital or picture of paper objects)
+Other artifacts of initial design work, as appropriate.
+
+Game Design Document (DESIGN.md)
+1. Game Loop
+
+The player is introduced to a test chamber and must analyse the environment to determine the best route to escape.
+
+As the floor begins to rise with lava, the player must navigate the chamber by jumping, running, and climbing. Ledges built into the walls provide opportunities to scale the chamber vertically, but climbing consumes stamina, meaning players must manage their resources carefully.
+
+Throughout each room, players must locate and interact with buttons or control panels that unlock the exit gate. While doing so, they must avoid environmental hazards and obstacles.
+
+The main objective is to reach the escape exit before the rising lava catches up.
+2. Game Mechanics
+
+The game features several core movement mechanics:
+
+    Jumping: Allows players to overcome gaps and reach higher platforms.
+    Running: Allows players to move quickly through the chamber.
+    Climbing: A unique mechanic that allows players to scale walls and reach otherwise inaccessible ledges and platforms.
+    Stamina: Climbing consumes stamina, requiring players to manage their energy and plan their routes carefully.
+
+Additional environmental mechanics include:
+
+    Moving Saw Blades: Obstacles that players must avoid while navigating the chamber.
+    Interactive Buttons: Buttons and control panels that must be activated to unlock the exit gate.
+    Rising Lava: A constant environmental threat that forces players to keep moving and prevents them from taking too long to complete each room.
+
+3. Game Structure and Setting
+
+The game is structured around a series of vertical test chambers. Each room presents a different challenge, requiring players to climb platforms, avoid obstacles, and interact with mechanisms to progress.
+
+The player controls a spherical character who has been placed inside a mysterious testing facility by an unknown organization.
+
+Within this facility, the player is subjected to a series of increasingly challenging tasks. Each completed chamber allows the player to ascend further into the facility, with the ultimate objective being to escape.
+
+The vertical level design encourages players to think carefully about their movement, stamina management, and route selection.
+4. Initial Paper Prototype
+
+For our initial paper prototype, we decided to take inspiration from the board game Snakes and Ladders.
+
+The prototype uses a grid-based movement system in which players navigate a series of tiles containing different obstacles and special effects.
+
+The objective is to reach the finish while avoiding hazards and dealing with the rising lava.
+Core Game Rules
+
+    All players begin at the START position.
+    Players roll a six-sided dice to determine how many spaces they can move.
+    Players can move up, down, left, or right.
+    Certain obstacles prevent movement or apply special effects when encountered.
+    After all players have taken their turns, the lava rises by one row.
+    Players caught by the lava lose their current life. During initial testing, each player has one life. If caught, they are returned to the top of the board to attempt the challenge again.
+    The first player to reach the FINISH position wins.
+
+Obstacle Effects
+Obstacle	Effect
+ Lightning Bolt	Stuns the player, preventing them from moving during their next turn.
+ Fire	Sends the player back one tile.
+ Ladder	Moves the player upwards to a designated tile, usually one row higher.
+Trapdoor	Drops the player down by one row.
+Jail	Traps the player for one full round, preventing movement.
+Spikes	Instantly removes one of the player's lives when landed on.
+5. Initial Design Considerations
+
+The paper prototype is intended to help us experiment with the game's core movement and obstacle mechanics before implementing them digitally.
+
+It allows us to test:
+
+    Whether the rising lava creates enough urgency.
+    Whether the obstacles provide interesting challenges.
+    Whether players have enough opportunities to choose different routes.
+    Whether the movement system feels fair and understandable.
+    Whether the game is too easy or difficult to complete.
+
+The results of these tests will help us refine the mechanics and determine how they should translate into the final game.
+
+
+
