@@ -1,0 +1,197 @@
+DESIGN.md - A design document describing your game in more detail than your proposal. This should include discussion of:
+
+    Game loop
+    Game mechanics
+    Game structure
+    Other core stuff (setting, characters, factions, unit types, whatever is appropriate)
+
+Initial paper prototype (digital or picture of paper objects)
+Other artifacts of initial design work, as appropriate.
+
+Game Design Document (DESIGN.md)
+1. Game Loop
+
+The player is introduced to a test chamber and must analyse the environment to determine the best route to escape.
+
+As the floor begins to rise with lava, the player must navigate the chamber by jumping, running, and climbing. Ledges built into the walls provide opportunities to scale the chamber vertically, but climbing consumes stamina, meaning players must manage their resources carefully.
+
+Throughout each room, players must locate and interact with buttons or control panels that unlock the exit gate. While doing so, they must avoid environmental hazards and obstacles.
+
+The main objective is to reach the escape exit before the rising lava catches up.
+2. Game Mechanics
+
+The game features several core movement mechanics:
+
+    Jumping: Allows players to overcome gaps and reach higher platforms.
+    Running: Allows players to move quickly through the chamber.
+    Climbing: A unique mechanic that allows players to scale walls and reach otherwise inaccessible ledges and platforms.
+    Stamina: Climbing consumes stamina, requiring players to manage their energy and plan their routes carefully.
+
+Additional environmental mechanics include:
+
+    Moving Saw Blades: Obstacles that players must avoid while navigating the chamber.
+    Interactive Buttons: Buttons and control panels that must be activated to unlock the exit gate.
+    Rising Lava: A constant environmental threat that forces players to keep moving and prevents them from taking too long to complete each room.
+
+3. Game Structure and Setting
+
+The game is structured around a series of vertical test chambers. Each room presents a different challenge, requiring players to climb platforms, avoid obstacles, and interact with mechanisms to progress.
+
+The player controls a spherical character who has been placed inside a mysterious testing facility by an unknown organization.
+
+Within this facility, the player is subjected to a series of increasingly challenging tasks. Each completed chamber allows the player to ascend further into the facility, with the ultimate objective being to escape.
+
+The vertical level design encourages players to think carefully about their movement, stamina management, and route selection.
+4. Initial Paper Prototype
+
+For our initial paper prototype, we decided to take inspiration from the board game Snakes and Ladders.
+
+The prototype uses a grid-based movement system in which players navigate a series of tiles containing different obstacles and special effects.
+
+The objective is to reach the finish while avoiding hazards and dealing with the rising lava.
+Core Game Rules
+
+    All players begin at the START position.
+    Players roll a six-sided dice to determine how many spaces they can move.DESIGN.md - A design document describing your game in more detail than your proposal. This should include discussion of:
+
+    Game loop
+    Game mechanics
+    Game structure
+    Other core stuff (setting, characters, factions, unit types, whatever is appropriate)
+
+Initial paper prototype (digital or picture of paper objects)
+Other artifacts of initial design work, as appropriate.
+
+Game Design Document (DESIGN.md)
+1. Game Loop
+
+The player is introduced to a test chamber and must analyse the environment to determine the best route to escape.
+
+As the floor begins to rise with lava, the player must navigate the chamber by jumping, running, and climbing. Ledges built into the walls provide opportunities to scale the chamber vertically, but climbing consumes stamina, meaning players must manage their resources carefully.
+
+Throughout each room, players must locate and interact with buttons or control panels that unlock the exit gate. While doing so, they must avoid environmental hazards and obstacles.
+
+The main objective is to reach the escape exit before the rising lava catches up.
+2. Game Mechanics
+
+The game features several core movement mechanics:
+
+    Jumping: Allows players to overcome gaps and reach higher platforms.
+    Running: Allows players to move quickly through the chamber.
+    Climbing: A unique mechanic that allows players to scale walls and reach otherwise inaccessible ledges and platforms.
+    Stamina: Climbing consumes stamina, requiring players to manage their energy and plan their routes carefully.
+
+Additional environmental mechanics include:
+
+    Moving Saw Blades: Obstacles that players must avoid while navigating the chamber.
+    Interactive Buttons: Buttons and control panels that must be activated to unlock the exit gate.
+    Rising Lava: A constant environmental threat that forces players to keep moving and prevents them from taking too long to complete each room.
+
+3. Game Structure and Setting
+
+The game is structured around a series of vertical test chambers. Each room presents a different challenge, requiring players to climb platforms, avoid obstacles, and interact with mechanisms to progress.
+
+The player controls a spherical character who has been placed inside a mysterious testing facility by an unknown organization.
+
+Within this facility, the player is subjected to a series of increasingly challenging tasks. Each completed chamber allows the player to ascend further into the facility, with the ultimate objective being to escape.
+
+The vertical level design encourages players to think carefully about their movement, stamina management, and route selection.
+4. Initial Paper Prototype
+
+For our initial paper prototype, we decided to take inspiration from the board game Snakes and Ladders.
+
+The prototype uses a grid-based movement system in which players navigate a series of tiles containing different obstacles and special effects.
+
+The objective is to reach the finish while avoiding hazards and dealing with the rising lava.
+Core Game Rules
+
+    All players begin at the START position.
+    Players roll a six-sided dice to determine how many spaces they can move.
+    Players can move up, down, left, or right.
+    Certain obstacles prevent movement or apply special effects when encountered.
+    After all players have taken their turns, the lava rises by one row.
+    Players caught by the lava lose their current life. During initial testing, each player has one life. If caught, they are returned to the top of the board to attempt the challenge again.
+    The first player to reach the FINISH position wins.
+
+Obstacle Effects
+Obstacle	Effect
+ Lightning Bolt	Stuns the player, preventing them from moving during their next turn.
+ Fire	Sends the player back one tile.
+ Ladder	Moves the player upwards to a designated tile, usually one row higher.
+Trapdoor	Drops the player down by one row.
+Jail	Traps the player for one full round, preventing movement.
+Spikes	Instantly removes one of the player's lives when landed on.
+5. Initial Design Considerations
+
+The paper prototype is intended to help us experiment with the game's core movement and obstacle mechanics before implementing them digitally.
+
+It allows us to test:
+
+    Whether the rising lava creates enough urgency.
+    Whether the obstacles provide interesting challenges.
+    Whether players have enough opportunities to choose different routes.
+    Whether the movement system feels fair and understandable.
+    Whether the game is too easy or difficult to complete.
+
+The results of these tests will help us refine the mechanics and determine how they should translate into the final game.
+    Players can move up, down, left, or right.
+    Certain obstacles prevent movement or apply special effects when encountered.
+    After all players have taken their turns, the lava rises by one row.
+    Players caught by the lava lose their current life. During initial testing, each player has one life. If caught, they are returned to the top of the board to attempt the challenge again.
+    The first player to reach the FINISH position wins.
+
+Obstacle Effects
+Obstacle	Effect
+ Lightning Bolt	Stuns the player, preventing them from moving during their next turn.
+ Fire	Sends the player back one tile.
+ Ladder	Moves the player upwards to a designated tile, usually one row higher.
+Trapdoor	Drops the player down by one row.
+Jail	Traps the player for one full round, preventing movement.
+Spikes	Instantly removes one of the player's lives when landed on.
+5. Initial Design Considerations
+
+The paper prototype is intended to help us experiment with the game's core movement and obstacle mechanics before implementing them digitally.
+
+It allows us to test:
+
+    Whether the rising lava creates enough urgency.
+    Whether the obstacles provide interesting challenges.
+    Whether players have enough opportunities to choose different routes.
+    Whether the movement system feels fair and understandable.
+    Whether the game is too easy or difficult to complete.
+
+The results of these tests will help us refine the mechanics and determine how they should translate into the final game.
+
+
+
+
+LASTEST PAPER PROTOTYPE TEST 11/20/2026
+
+Friday Changes and Game Testing Report
+Changes Made
+
+    Added More Spikes: Increased the number of spikes throughout the map to create more obstacles and challenges for players.
+    Spin the Wheel: Replaced the four-sided dice with a spinning wheel to determine how many spaces players move.
+    Exact Number Required: Players must now land on the exact number needed to reach the finish line. They cannot move past it.
+    Jail Rule: Players who land in jail must now miss two rounds before they can continue playing.
+    Expanded Map: Increased the map size to 7 rows and 8 columns, creating a larger playing area.
+    Additional Traps: Added more traps to fill the expanded map and maintain the game's difficulty.
+    Rising Lava: When a player spins the wheel and lands on the lava space, the lava level rises, adding another challenge to the game.
+    Instead of taking place inside a Lab, the game will take place in a ruined temple, with rising lava.
+
+Game Testing
+
+These changes were made to improve the gameplay by adding more obstacles, increasing the difficulty, and making the game more exciting. The expanded map and new spinning wheel mechanic also introduce more variety and unpredictability.
+
+
+Blake
+- "I think it's pretty good, but it's pretty RNG based, not much skill to it- hopefully the digital version is better."
+
+THARUK
+- "Same thing blake said, but having two lavas on the spinner is the sweet spot, one is to slow, three is to fast, TO Much."
+
+Raymond
+-"VERY RNG based, not alot of skill to it, but hopefully when we get around to making the digital version we can scrap all these RNG mechanics for more interactive mechanics. You can't really play 'The Floor Is Lava' in an enviorment like our classroom, without looking like a bunch of apes."
+
+Overall the general summary and conesus is, this prototpye game is nothing more than a rip off of snakes and ladders, which we thought was the best way to handle a paper prototye susbtitute for our game. This prototype although will not represent the complete edition for our digital game, I think we have learned quite a bit.
+I will be working it over Thanksgiving
